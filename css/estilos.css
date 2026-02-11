@@ -9,7 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  color: white;
+  color: rgb(199, 25, 176);
   background: linear-gradient(135deg, #ff4d6d, #ff8fab, #ffb3c6, #c9184a);
   background-size: 400% 400%;
   animation: bgMove 14s ease infinite;
@@ -206,7 +206,7 @@ body {
   position: fixed;
   font-size: 2.5rem;
   font-weight: 900;
-  color: #fff;
+  color: #a949d2;
   text-shadow: 0 0 20px #ff4d6d, 0 0 60px #ff1e56;
   animation: fireTextBoom 3.2s ease-out forwards;
   z-index: 9999;
