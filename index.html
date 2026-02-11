@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para Ti ❤️</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/estilos.css">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<!-- CAPAS DE EFECTOS -->
+<div class="cloud-layer"></div>
+
+<audio id="music" src="audio/buenos_dias.mpeg" preload="auto"></audio>
+
+<!-- 🌸 PANTALLA 1 -->
+<section class="screen active" id="screen1">
+  <h1 class="title">Tú sabes lo que siento…</h1>
+  <p class="subtitle">y lo que estoy a punto de preguntarte</p>
+  <button id="btnVerMas" class="btn glow">💌 Ver más</button>
+</section>
+
+<!-- 💖 PANTALLA 2 -->
+<section class="screen" id="screen2">
+  <h2 class="question">¿Quieres ser mi San Valentín? ❤️</h2>
+  <div class="buttons">
+    <button id="btnNo" class="btn no">No paso</button>
+    <button id="btnSi" class="btn yes glow">Sí acepto😍</button>
+  </div>
+</section>
+
+<!-- ❤️ PANTALLA 3 -->
+<section class="screen" id="screen3">
+  <div class="heart">
+    <img src="imagen/amor.jpeg" alt="Mi amor" class="heart-img">
+  </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
